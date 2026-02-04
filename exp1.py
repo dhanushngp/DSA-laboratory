@@ -34,3 +34,5 @@ with open("data.json", "r") as f:
     parsed = json.load(f)
     for student in parsed["students"]:
         print(student["name"], "scored", student["score"])
+
+print("good");
