@@ -36,3 +36,4 @@ with open("data.json", "r") as f:
         print(student["name"], "scored", student["score"])
 
 print("good")
+print("hey")
